@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 int main()
@@ -15,4 +14,5 @@ int main()
 		result_s = (pow(-1, i) * (2 * i - 1)) / (pow(x, i));
 		cout << "i = " << i << ", result:  " << result_s << ";" << endl;
 	}
+	system("pause");
 }
